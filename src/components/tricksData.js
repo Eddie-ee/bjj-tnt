@@ -12,3 +12,4 @@ export const tricksArray = [
     "Double Leg Takedown",
 ];
 
+
