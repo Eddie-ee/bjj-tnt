@@ -3,7 +3,7 @@ import './App.css';
 import React from 'react';
 import { ReactDOM } from 'react-dom/client';
 import Header from './components/Header'
-// import Slide from './components/Slide';
+import Slide from './components/Slide';
 import Button from './components/Button';
 
 function App() {
@@ -11,6 +11,7 @@ function App() {
     <div className="App">
           <Header />
           <Button />
+          <Slide />
     </div>
   );
 }
