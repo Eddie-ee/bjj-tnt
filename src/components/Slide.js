@@ -1,24 +1,35 @@
-import React from "react"
-import ReactDOM from "react-dom/client"
-import {tricksArray} from "./tricksData"
+
+import React, { useState } from "react";
+import Button from './Button';
+
+const testArray = [
+    "Crossface",
+    "Side Control",
+    "Closed Guard",
+    "Open Guard",
+    "Half Guard",
+    "Mount",
+    "Back Mount",
+    "Rear Naked Choke",
+    "Single Leg Takedown",
+    "Double Leg Takedown",
+];
 
 export default function Slide() {
+    const [randomTip, setRandomTip] = useState('Slap and bump!');
 
-    function getRandomTrick() {
-        let randomnum = Math.floor(Math.random() * tricksArray.length) + 1
-        let randomTrick = tricksArray[randomnum]
-        return randomTrick
+    function handleClick() {
+        const randomIndex = Math.floor(Math.random() * testArray.length);
+        setRandomTip(testArray[randomIndex]);
     }
 
     return (
         <div className="slide-div">
+            <Button clickProp={handleClick} />
             <h2>Slide component</h2>
-            <p>{getRandomTrick()}</p>
+            <p id="slide-el">{randomTip}</p>
         </div>
-    )
+    );
 }
 
 
-
-
-// do ONE, SMALL thing.
