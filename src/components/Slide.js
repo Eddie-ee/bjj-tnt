@@ -33,3 +33,20 @@ export default function Slide() {
 }
 
 
+// const fruits = [
+//     {
+//         name: 'Apple', 
+//         color: 'Red', 
+//         quantity: 5 
+//     },
+//     { 
+//         name: 'Banana', 
+//         color: 'Yellow', 
+//         quantity: 3 
+//     },
+//     { 
+//         name: 'Orange', 
+//         color: 'Orange', 
+//         quantity: 7 
+//     }
+// ];
