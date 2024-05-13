@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import Button from './Button';
 
-const testArray = [
+const tipArray = [
     "Crossface",
     "Side Control",
     "Closed Guard",
@@ -19,8 +19,8 @@ export default function Slide() {
     const [randomTip, setRandomTip] = useState('Slap and bump!');
 
     function handleClick() {
-        const randomIndex = Math.floor(Math.random() * testArray.length);
-        setRandomTip(testArray[randomIndex]);
+        const randomIndex = Math.floor(Math.random() * tipArray.length);
+        setRandomTip(tipArray[randomIndex]);
     }
 
     return (
