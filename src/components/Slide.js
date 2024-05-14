@@ -32,8 +32,13 @@ export default function Slide() {
             <h2>Move</h2>
             <Move 
                 area="Side Control"
-                tip="Pull opponent INTO YOU with your crossface and underhook arms"
+                tip="Pull opponent into you with your crossface and underhook arms"
             />
+            <Move 
+                area="Under Top Mount"
+                tip="Keep elbows close, into you front ribs"
+            />
+            <Move />
         </div>
     );
 }
