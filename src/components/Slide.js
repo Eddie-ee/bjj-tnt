@@ -1,6 +1,7 @@
 
 import React, { useState } from "react";
 import Button from './Button';
+import Move from './Move';
 
 const tipArray = [
     "Crossface",
@@ -25,9 +26,14 @@ export default function Slide() {
 
     return (
         <div className="slide-div">
-            <Button clickProp={handleClick} />
+            <Button props={handleClick} />
             <h2>Slide component</h2>
             <p id="slide-el">{randomTip}</p>
+            <h2>Move</h2>
+            <Move 
+                area="Side Control"
+                tip="Pull opponent INTO YOU with your crossface and underhook arms"
+            />
         </div>
     );
 }
