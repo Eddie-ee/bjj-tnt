@@ -1,58 +1,28 @@
-
 import React, { useState } from "react";
 import Button from './Button';
 import Move from './Move';
-
-const tipArray = [
-    "Crossface",
-    "Side Control",
-    "Closed Guard",
-    "Open Guard",
-    "Half Guard",
-    "Mount",
-    "Back Mount",
-    "Rear Naked Choke",
-    "Single Leg Takedown",
-    "Double Leg Takedown",
-];
+import { tipData } from './tipData';
 
 export default function Slide() {
-    const [randomTip, setRandomTip] = useState('Slap and bump!');
+    const [randomTip, setRandomTip] = useState({ name: 'Slap and bump!', description: 'Initial tip description' });
 
     function handleClick() {
-        const randomIndex = Math.floor(Math.random() * tipArray.length);
-        setRandomTip(tipArray[randomIndex]);
+        const randomIndex = Math.floor(Math.random() * tipData.length);
+        setRandomTip(tipData[randomIndex]);
     }
 
     return (
         <div className="slide-div">
-            <Button props={handleClick} />
+            <Button onClick={handleClick} />
+            {/* Old, potentially unneeded code?
             <h2>Slide component</h2>
-            <p id="slide-el">{randomTip}</p>
+            <p id="slide-el">{randomTip.name}</p>
+            <p>{randomTip.description}</p> */}
             <h2>Move</h2>
             <Move 
-                area="Side Control"
-                tip="Pull opponent into you with your crossface and underhook arms"
-            />
+                area={randomTip.name} 
+                tip={randomTip.description} 
+                />
         </div>
     );
 }
-
-
-// const fruits = [
-//     {
-//         name: 'Apple', 
-//         color: 'Red', 
-//         quantity: 5 
-//     },
-//     { 
-//         name: 'Banana', 
-//         color: 'Yellow', 
-//         quantity: 3 
-//     },
-//     { 
-//         name: 'Orange', 
-//         color: 'Orange', 
-//         quantity: 7 
-//     }
-// ];
