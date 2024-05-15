@@ -3,6 +3,26 @@ export const tipData = [
         name: 'Crossface', 
         description: 'Putting your hand across their neck or face',
     },
+    {
+        name: 'In Closed Guard',
+        description: 'Generally, try create space between you and opponent & try get out of guard.'
+    },
+    {
+        name: 'Under Top Mount',
+        description: 'Pull opponent neck/head close to you, limiting their space to operate.'
+    },
+    {
+        name: 'Under Top Mount',
+        description: 'It is better to be on side than back.'
+    },
+    {
+        name: 'Have Side Control',
+        description: 'Use chest-to-chest pressure, not over-leaning, & make the time count.'
+    },
+    {
+        name: 'Under Half Guard',
+        description: 'Stay on side & fight not to have far-side shoulder to the ground. Create space between you and opponent as much as you can.'
+    },
     { 
         name: 'Side Control', 
         description: 'Pull opponent into you with your crossface and underhook arms', 
@@ -39,6 +59,27 @@ export const tipData = [
         name: 'Any',
         description: 'Remember to breath: deep, consistent & through the nose.',
     },
+    {
+        name: 'In Turtle',
+        description: 'Try protect your neck & prevent opponent connecting their hands beneath you'
+    },
+    {
+        name: 'Any',
+        description: 'Prioritise position & control over moves & activity. Play smart & let them gas out.',
+    },
+    {
+        name: 'In Back Control (seated)',
+        description: 'Try not to fall on the chocking arm (closest to your neck) side; instead fall toward oppisite are, trapping opponent arm.',
+    },
+    {
+        name: 'Any',
+        description: 'Generally, hands fight hands & feet fight feet.'
+    },
+    {
+        name: 'Have Back Control (seated',
+        description: 'Opponent will try to fall on the non-choking arm, trapping your arm. Use this as distraction while falling to side & cup defending arm down whilst lifting leg - get heel as close to defending arm elbow - to trap opponent arm.',
+    },
+
 ];
   
 
