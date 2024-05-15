@@ -13,10 +13,21 @@ export const tipData = [
     },
     {
         name: 'Under Top Mount',
-        description: 'Keep legs flat, buck/bridge and roll',
+        description: 'Keep knees up, in tight with heels close to but, then buck, bridge and roll. Remember to look up and point eyes to where you are bridging to.',
+    },
+    {
+        name: 'Have Closed Guard',
+        description: 'When opponent is trying to break guard (especially big guys you cannot get your legs around) you can keep your legs flat & hook your feet on the insides of his legs & extend to create space to push him down & lift legs into an attack',
+    },
+    {
+        name: 'Any',
+        description: 'Remember to breath: deep, consistent & through the nose.',
+    },{
+        name: 'Have Closed Guard',
+        description: 'When doing arm drag, grab sameside wrist, opposing open hand shoots through deep (between grabbed arm and opponent chest) & hook onto outside of arm. Drag gripped arm while pushing opponent wrist underneath own arm toward floor.  ',
     },
 ];
-
+  
 
 
 

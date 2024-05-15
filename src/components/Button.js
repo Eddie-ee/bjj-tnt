@@ -2,6 +2,8 @@ import React from 'react';
 
 export default function Button({ onClick }) {
     return (
-        <button onClick={onClick}>TIP ME</button>
+        <div id="div--button">
+            <button onClick={onClick} >NEW TIP</button>
+        </div>
     );
 }
