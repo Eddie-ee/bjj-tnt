@@ -14,7 +14,7 @@ export default function Slide() {
     return (
         <div className="slide-div">
             <Button onClick={handleClick} />
-            <h2>Move / Position</h2>
+            
             <Move 
                 area={randomTip.name} 
                 tip={randomTip.description} 

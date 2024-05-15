@@ -16,6 +16,10 @@ export const tipData = [
         description: 'It is better to be on side than back.'
     },
     {
+        name: 'Side Control',
+        description: 'Use your hand(s) to push opponent head both in attach & defence. Where the head goes, the body follows.'
+    },
+    {
         name: 'Have Side Control',
         description: 'Use chest-to-chest pressure, not over-leaning, & make the time count.'
     },
