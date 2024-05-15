@@ -14,15 +14,15 @@ export default function Slide() {
     return (
         <div className="slide-div">
             <Button onClick={handleClick} />
-            {/* Old, potentially unneeded code?
-            <h2>Slide component</h2>
-            <p id="slide-el">{randomTip.name}</p>
-            <p>{randomTip.description}</p> */}
-            <h2>Move</h2>
+            <h2>Move / Position</h2>
             <Move 
                 area={randomTip.name} 
                 tip={randomTip.description} 
                 />
+            {/* Old, potentially unneeded code?
+            <h2>Slide component</h2>
+            <p id="slide-el">{randomTip.name}</p>
+            <p>{randomTip.description}</p> */}
         </div>
     );
 }

@@ -11,7 +11,16 @@ export const tipData = [
         name: 'Under Top Mount',
         description: 'Keep your elbows in, close to your body (ribs), hands on chest',
     },
+    {
+        name: 'Under Top Mount',
+        description: 'Keep legs flat, buck/bridge and roll',
+    },
 ];
+
+
+
+
+
 
 
 // {
