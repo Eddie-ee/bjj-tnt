@@ -13,7 +13,7 @@ export const tipData = [
     },
     {
         name: 'Under Top Mount',
-        description: 'Keep knees up, in tight with heels close to but, then buck, bridge and roll. Remember to look up and point eyes to where you are bridging to.',
+        description: 'Keep knees up, in tight with heels close to but, then buck, bridge and roll. Remember to look up and point your eyes to where you are bridging to.',
     },
     {
         name: 'Have Closed Guard',
