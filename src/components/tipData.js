@@ -1,7 +1,19 @@
 export const tipData = [
     { 
         name: 'Crossface', 
-        description: 'Putting your hand across their neck or face',
+        description: 'Putting your hand across their neck or face, as deep as possible with elbow/bicep flush against opponent neck.',
+    },
+    { 
+        name: 'Crossface', 
+        description: 'Putting your hand across the',
+    },
+    {
+        name: 'Under Side Control',
+        description: 'When shrimping or creating space, make use of double movement (double shrimp, double bridge) to make more space & then reguard.'
+    },
+    {
+        name: 'Any',
+        description: 'Good Jiu Jitsu is more about small manipulations seting up effective attacks/defence (arm bars, triangles, escapes, etc.) than big, powerful moves - think physio Jaco.'
     },
     {
         name: 'In Closed Guard',
@@ -21,7 +33,7 @@ export const tipData = [
     },
     {
         name: 'Have Side Control',
-        description: 'Use chest-to-chest pressure, not over-leaning, & make the time count.'
+        description: 'Use chest-to-chest pressure, not over-leaning but chest on median line, & make the time count.'
     },
     {
         name: 'Under Half Guard',
