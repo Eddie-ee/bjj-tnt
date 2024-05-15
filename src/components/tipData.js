@@ -22,9 +22,22 @@ export const tipData = [
     {
         name: 'Any',
         description: 'Remember to breath: deep, consistent & through the nose.',
-    },{
+    },
+    {
         name: 'Have Closed Guard',
-        description: 'When doing arm drag, grab sameside wrist, opposing open hand shoots through deep (between grabbed arm and opponent chest) & hook onto outside of arm. Drag gripped arm while pushing opponent wrist underneath own arm toward floor.  ',
+        description: 'When doing arm drag, grab sameside wrist, opposing open hand shoots through deep (between grabbed arm and opponent chest) & hook onto outside of arm. Drag gripped arm while pushing opponent wrist underneath own arm toward floor.',
+    },
+    {
+        name: 'In/Under Side Control',
+        description: 'Your Near Arm is the arm closest to your body & Far Arm is the arm that is farther away from your body',
+    },
+    {
+        name: 'Under Side Control',
+        description: 'If rolling with a more senior belt, keep what is normally your far arm & elbow (throat frame) close to your chest & hand on your chest.',
+    },
+    {
+        name: 'Any',
+        description: 'Remember to breath: deep, consistent & through the nose.',
     },
 ];
   
