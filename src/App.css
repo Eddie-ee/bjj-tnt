@@ -29,3 +29,8 @@ button {
   color: beige;
   font-weight: bold;
 }
+
+.par--div {
+  max-width: 400px;
+  margin: 0 auto;
+}

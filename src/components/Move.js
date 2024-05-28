@@ -4,7 +4,9 @@ export default function Move(props) {
     return (
         <div>
             <h3>{props.area}</h3>
-            <p>{props.tip}</p>
+                <div className="par--div">
+                    <p>{props.tip}</p>
+                </div>
         </div>
     );
 }

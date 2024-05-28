@@ -92,7 +92,7 @@ export const tipData = [
         description: 'Generally, hands fight hands & feet fight feet.'
     },
     {
-        name: 'Have Back Control (seated',
+        name: 'Have Back Control (seated)',
         description: 'Opponent will try to fall on the non-choking arm, trapping your arm. Use this as distraction while falling to side & cup defending arm down whilst lifting leg - get heel as close to defending arm elbow - to trap opponent arm.',
     },
 
