@@ -18,6 +18,8 @@ export default function Slide() {
             <Move 
                 area={randomTip.name} 
                 tip={randomTip.description} 
+                level={randomTip.level}
+
                 />
             
         </div>
